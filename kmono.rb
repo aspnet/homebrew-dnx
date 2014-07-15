@@ -6,7 +6,7 @@ class Kmono < Formula
   version "3.6.1"
 
   bottle do
-    root_url "https://github.com/lodejard/homebrew-k/releases/download/v1.0.0-alpha3-10141"
+    root_url "https://github.com/aspnet/homebrew-k/releases/download/v1.0.0-alpha3-10141"
     sha1 "36ce327e4587f747c6af5bc9c6c45c44634d956b" => :mavericks
   end
 
