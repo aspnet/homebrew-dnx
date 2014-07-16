@@ -18,4 +18,12 @@ class Kvm < Formula
     bin.install_symlink "#{libexec}/current/kpm"
   end
 
+  def caveats; <<-EOS.undent
+    Add the following to the ~/.bashrc or ~/.zshrc file:
+
+      source kvm.sh
+
+    EOS
+  end
+
 end
