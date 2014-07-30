@@ -2,12 +2,12 @@ require "formula"
 
 class Kmono < Formula
   homepage "http://www.mono-project.com/"
-  url "https://github.com/mono/mono.git", :revision => 'd795d17c3d853f3d70dea416588a5e338c4c128e'
-  version "3.6.1"
+  url "https://github.com/mono/mono.git", :revision => '21112244e0822c9265d4456686d6a451d793e2fc'
+  version "3.6.1-10002"
 
   bottle do
-    root_url "https://github.com/aspnet/homebrew-k/releases/download/v1.0.0-alpha3-10141"
-    sha1 "36ce327e4587f747c6af5bc9c6c45c44634d956b" => :mavericks
+    root_url "https://github.com/aspnet/homebrew-k/releases/download/kmono-v3.6.1-10002"
+    sha1 "ec01533746a79c68c94ccb24c47d523473dbc99d" => :mavericks
   end
 
   resource "monolite" do
