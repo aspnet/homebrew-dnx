@@ -2,7 +2,7 @@ require "formula"
 
 class Kvm < Formula
   homepage "https://www.github.com/aspnet/Home"
-  version "1.0.0-alpha3-2"
+  version "1.0.0-alpha4-1"
   url "https://github.com/aspnet/kvm.git", :branch => 'feature-homebrew'
 
   depends_on "kmono" => :recommended
@@ -19,7 +19,7 @@ class Kvm < Formula
   end
 
   def caveats; <<-EOS.undent
-    Add the following to the ~/.bashrc or ~/.zshrc file:
+    Add the following to the ~/.bash_profile, ~/.bashrc or ~/.zshrc file:
 
       source kvm.sh
 
