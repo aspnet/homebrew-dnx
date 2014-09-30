@@ -5,7 +5,7 @@ class Kvm < Formula
   version "1.0.0-alpha4-1"
   url "https://github.com/aspnet/Home.git", :branch => 'master'
 
-  depends_on "kmono" => :recommended
+  depends_on "mono" => :recommended
 
   def install
     libexec.install "kvm.sh"
