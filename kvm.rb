@@ -10,7 +10,7 @@ class Kvm < Formula
   def install
     libexec.install "kvm.sh"
     (libexec + "kvm.sh").chmod 0755
-    (libexec + "mono").make_symlink Formula["kmono"].opt_bin/"mono"
+    (libexec + "mono").make_symlink Formula["mono"].opt_bin/"mono"
     system "bash -c 'source #{libexec}/kvm.sh; kvm upgrade'"
     bin.install_symlink "#{libexec}/kvm.sh"
     bin.install_symlink "#{libexec}/current/k"
