@@ -1,14 +1,21 @@
 require "formula"
 
 class Kvm < Formula
-  homepage "https://www.github.com/aspnet/Home"
+  homepage "https://www.github.com/aspnet/kvm"
   version "1.0.0-beta1"
-  url "https://github.com/aspnet/Home.git", :branch => 'master'
+
+  stable do
+    url "https://github.com/aspnet/kvm.git", :branch => 'master'
+  end
+
+  head do
+    url "https://github.com/aspnet/kvm.git", :branch => 'dev'
+  end
 
   depends_on "mono" => :recommended
 
   def install
-    libexec.install "kvm.sh"
+    libexec.install "src/kvm.sh"
     (libexec + "kvm.sh").chmod 0755
     (libexec + "mono").make_symlink Formula["mono"].opt_bin/"mono"
     system "bash -c 'source #{libexec}/kvm.sh; kvm upgrade'"
