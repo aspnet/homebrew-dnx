@@ -2,14 +2,14 @@ require "formula"
 
 class Kvm < Formula
   homepage "https://www.github.com/aspnet/kvm"
-  version "1.0.0-beta1"
+  version "1.0.0-beta2"
 
   stable do
-    url "https://github.com/aspnet/kvm.git", :branch => 'master'
+    url "https://github.com/aspnet/kvm.git", :using => :git, :tag => '1.0.0-beta2'
   end
 
   head do
-    url "https://github.com/aspnet/kvm.git", :branch => 'dev'
+    url "https://github.com/aspnet/kvm.git", :using => :git, :branch => 'dev'
   end
 
   depends_on "mono" => :recommended
@@ -32,5 +32,4 @@ class Kvm < Formula
 
     EOS
   end
-
 end
