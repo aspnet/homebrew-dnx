@@ -6,6 +6,7 @@ class Kvm < Formula
   url "https://github.com/aspnet/Home.git", :branch => 'master'
 
   devel do
+    version "1.0.0-devel"
     url "https://github.com/aspnet/Home.git", :branch => 'dev'
   end
 
