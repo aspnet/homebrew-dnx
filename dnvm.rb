@@ -5,12 +5,12 @@ class Dnvm < Formula
   version "1.0.0-dev"
   url "https://github.com/aspnet/Home.git", :branch=> 'dev'
 
-  depends_on "mono" => :recommended
+  depends_on "dnxmono" => :recommended
 
   def install
     libexec.install "dnvm.sh"
     (libexec + "dnvm.sh").chmod 0755
-    (libexec + "mono").make_symlink Formula["mono"].opt_bin/"mono"
+    (libexec + "mono").make_symlink Formula["dnxmono"].opt_bin/"mono"
     system "bash -c 'source #{libexec}/dnvm.sh; dnvm upgrade'"
     bin.install_symlink "#{libexec}/dnvm.sh"
   end
