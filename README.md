@@ -8,19 +8,19 @@ This project is part of ASP.NET 5. You can find samples, documentation and getti
 To install, first 'tap' the repository using the following command:
 
 ```
-brew tap aspnet/k
+brew tap aspnet/dnx
 ```
 
-Then, you can install the `kvm` script using the following command:
+Then, you can install the `dnvm` script using the following command:
 
 ```
-brew install kvm
+brew install dnvm
 ```
 
-Finally you can use the `kvm` script to install the latest runtime using the following command:
+Finally you can use the `dnvm` script to install the latest runtime using the following command:
 
 ```
-kvm upgrade
+dnvm upgrade
 ```
 
 See the [Home](https://github.com/aspnet/home) repo for more information!
