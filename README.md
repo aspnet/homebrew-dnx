@@ -1,4 +1,4 @@
-ASP.NET v5 Homebrew Tap
+ASP.NET 5 Homebrew Tap
 =======================
 
 [Homebrew](http://brew.sh/) formulae for installing ASP.NET 5 in OS X.
