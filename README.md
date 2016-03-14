@@ -1,4 +1,4 @@
-**This repo and the homebrew formulae are depreciated**
+**This repo and the homebrew formulae are deprecated**
 
 ASP.NET 5 Homebrew Tap
 =======================
