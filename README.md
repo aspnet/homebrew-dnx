@@ -1,5 +1,7 @@
 **This repo and the homebrew formulae are deprecated**
 
+Please go to https://get.asp.net and download the Mac installer from there instead.
+
 ASP.NET 5 Homebrew Tap
 =======================
 
