@@ -1,3 +1,5 @@
+**This repo and the homebrew repo are depreciated**
+
 ASP.NET 5 Homebrew Tap
 =======================
 
