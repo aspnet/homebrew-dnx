@@ -1,30 +1,12 @@
-**This repo and the homebrew formulae are deprecated**
+homebrew-dnx
+===
 
-Please go to https://get.asp.net and download the Mac installer from there instead.
+## This repository is obsolete and no longer used or maintained.
 
-ASP.NET 5 Homebrew Tap
-=======================
 
-[Homebrew](http://brew.sh/) formulae for installing ASP.NET 5 in OS X.
+ DNX and DNVM have been replaced by the new .NET CLI. See:
 
-This project is part of ASP.NET 5. You can find samples, documentation and getting started instructions for ASP.NET 5 at the [Home](https://github.com/aspnet/home) repo.
+- https://docs.microsoft.com/dotnet/articles/standard/getting-started
+- http://github.com/dotnet/cli
 
-To install, first 'tap' the repository using the following command:
-
-```
-brew tap aspnet/dnx
-```
-
-Then, you can install the `dnvm` script using the following command:
-
-```
-brew install dnvm
-```
-
-Finally you can use the `dnvm` script to install the latest runtime using the following command:
-
-```
-dnvm upgrade
-```
-
-See the [Home](https://github.com/aspnet/home) repo for more information!
+As a result, we're not accepting anymore changes to this project. Please file any new issues on http://github.com/dotnet/cli.
